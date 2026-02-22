@@ -160,24 +160,23 @@ Algorithms, and system design, with experience owning services end-to-end in hig
 
         <div class="card">
             <h3>INFRRD | Software Development Engineer</h3>
-            <p>
-            Architected LLM-driven classification pipelines improving document extraction accuracy 
-            from 36% to 93%. Designed and operated distributed backend services processing 1M+ documents 
-            using Flask, MongoDB, and Elasticsearch. Implemented monitoring with Prometheus and Grafana, 
-            and deployed containerized services using Docker and Kubernetes.
-            • Architected LLM-driven classification pipelines that improved document extraction accuracy from 36% to 93%
-                (2.5x improvement), reducing manual intervention and improving downstream business metrics.
-            • Designed and operated distributed backend services processing 1M+ production documents, building scalable
-                REST APIs with Flask, MongoDB, and Elasticsearch optimized for high-throughput workloads.
-            • Improved system scalability and latency by optimizing search queries, caching layers, and asynchronous RabbitMQ
-                workflows, ensuring stable processing under production load.
-            • Owned end-to-end cloud architecture on AWS (EC2, S3, EFS), implementing lifecycle policies, access controls, and
-                fault-tolerant storage workflows.
-            • Identified and remediated security vulnerabilities using CodeQL and secure coding standards to ensure compliance
-                with organizational security policies.
-            • Led deployment automation via Kubernetes, Docker, ArgoCD (GitOps), improving release reliability and reducing
-                deployment errors.
-            </p>
+            <ul>
+
+                <li>Architected and integrated <strong>multi-LLM driven classification pipelines</strong>, improving document extraction accuracy from <strong>36% to 93% (2.5x improvement)</strong>. Designed prompt experimentation frameworks and automated evaluation workflows to continuously optimize extraction quality.</li>
+                <li>Developed automated <strong>prompt tuning scripts</strong> to run large-scale evaluation jobs, enabling systematic benchmarking of prompts and improving model precision across document categories.</li>
+                <li>Built internal <strong>“Bug Buster” evaluation services</strong> to compare multiple prompt variants and dynamically identify best-performing prompts using accuracy metrics, significantly reducing manual QA effort.</li>
+                <li>Designed and operated distributed backend services processing <strong>1M+ production documents</strong>, building scalable REST APIs using <strong>Flask, MongoDB, and Elasticsearch</strong> optimized for high-throughput workloads.</li>
+                <li>Engineered asynchronous task pipelines using a <strong>multi-queue RabbitMQ architecture</strong>, reducing redundant storage calls and improving system throughput under peak production load.</li>
+                <li>Developed advanced document intelligence features including <strong>table extraction from complex document layouts</strong>, enhancing structured data capture capabilities.</li>
+                <li>Owned end-to-end AWS cloud architecture (<strong>EC2, S3, EFS</strong>), implementing lifecycle policies, secure access controls, and optimized storage workflows that reduced operational costs.</li>
+                <li>Led storage optimization initiatives by redesigning access patterns and minimizing unnecessary read/write operations, lowering infrastructure costs.</li>
+                <li>Built inline ML services integrated within backend workflows to enable real-time document classification and extraction features.</li>
+                <li>Enhanced observability by improving <strong>Prometheus and Grafana monitoring</strong>, optimizing alert configurations to reduce false positives and improve system reliability.</li>
+                <li>Diagnosed and resolved multiple <strong>time-critical production incidents</strong>, ensuring system uptime and maintaining SLA commitments in high-pressure environments.</li>
+                <li>Automated CI/CD workflows and managed containerized deployments using <strong>Docker, Kubernetes, and ArgoCD (GitOps)</strong>, improving deployment stability and reducing release failures.</li>
+                <li>Identified and remediated security vulnerabilities using <strong>CodeQL</strong> and secure coding practices, ensuring compliance with organizational security standards.</li>
+                
+            </ul>
         </div>
 
     </div>
